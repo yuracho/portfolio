@@ -36,15 +36,15 @@
 		<div class="welcome-area">
 			<div class="container">
 				<div class="image-slide fade">
-					<img src="img/main.jpg">
+					<img src="image/main.jpg">
 					<div class="numbertext"></div>
 				</div>
 				<div class="image-slide fade">
-					<img src="img/computer-1209641_1920.jpg">
+					<img src="image/computer-1209641_1920.jpg">
 					<div class="numbertext"></div>
 				</div>
 				<div class="image-slide fade">
-					<img src="img/code-1839406_1920.jpg">
+					<img src="image/code-1839406_1920.jpg">
 					<div class="numbertext"></div>
 				</div>
 
@@ -64,7 +64,7 @@
 				ABOUT
 			</div>
 			<div class="picture">
-				<img src="img/laptop-2588606_1920.jpg" alt="">
+				<img src="image/laptop-2588606_1920.jpg" alt="">
 				<div class="name">조유라</div>
 			</div>
 			<div class="text">
@@ -99,7 +99,7 @@
 			</div>
 			<div class="container">
 				<div class="item">
-					<div class="icon"><img src="img/htmlcss.png" alt=""></div>
+					<div class="icon"><img src="image/htmlcss.png" alt=""></div>
 					<div class="service">HTML/CSS</div>
 					<div class="content"> HTML(Hyper Text Markup Language)은 페이지에 제목, 문단, 표, 이미지, 동영상 등을 정의하고 그 구조와 의미를 부여하는 정적 언어로 웹의 구조를 담당합니다. CSS(Cascading Style Sheets)는 마크업 언어가 실제 표시되는 방법(색상, 크기, 폰트, 레이아웃 등)을 지정하여 콘텐츠 구조를 꾸며주는 정적 언어로 웹의 시각적인 표현을 담당합니다. 저는 기본기가 우선이고 탄탄해야 한다고 생각하여 HTML로 온전히 튼튼한 Semantic구조를 만드는 것에 집중하고 CSS를 사용하여 꾸미기가 가능합니다.</div>
 				</div>
@@ -155,7 +155,25 @@
 					<div class="text">
 						한국조폐공사의 메인페이지를 데스크탑 버전으로 리뉴얼
 					</div>
-					<button><a href="https://github.com/yuracho" target="_blank">포트폴리오 보러가기</a></button>
+					<div class="skills">SKILLS: HTMK/CSS/Javascript/jQuery</div>
+					<button><a href="https://yuracho.github.io/publishing_web/" target="_blank">포트폴리오 보러가기</a></button>
+				</div>
+				<div class="filterItem uiux">
+					<div class="image">
+						<div class="overlay"><i class="far fa-image"></i></div>
+						<img src="image/responsive.jpg">
+					</div>
+					<div class="main">
+						WEB RESPONSIVE PUBLISHING
+					</div>
+					<div class="sub">
+						COSMETIC SHOPPING MALL
+					</div>
+					<div class="text">
+						반응형 화장품 쇼핑몰
+					</div>
+					<div class="skills">SKILLS: HTMK/CSS/Javascript/jQuery</div>
+					<button><a href="https://yuracho.github.io/publishing_responsive/" target="_blank">포트폴리오 보러가기</a></button>
 				</div>
 				<div class="filterItem java">
 					<div class="image">
@@ -171,8 +189,10 @@
 					<div class="text">
 						KB국민카드 메인페이지를 데스크탑 버전으로 리뉴얼
 					</div>
-					<button><a href="https://github.com/yuracho" target="_blank">포트폴리오 보러가기</a></button>
+					<div class="skills">SKILLS: HTMK/CSS/Javascript/jQuery</div>
+					<button><a href="https://yuracho.github.io/publishing_mobile/" target="_blank">포트폴리오 보러가기</a></button>
 				</div>
+
 				<div class="filterItem db">
 					<div class="image">
 						<div class="overlay"><i class="far fa-image"></i></div>
@@ -185,10 +205,12 @@
 						COSMETIC SHOPPING MALL
 					</div>
 					<div class="text">
-						React, Node, Mysql을 사용한 반응형 화장품 쇼핑몰
+						REACT를 사용한 반응형 화장품 쇼핑몰
 					</div>
-					<button><a href="https://github.com/yuracho" target="_blank">포트폴리오 보러가기</a></button>
+					<div class="skills">SKILLS: HTMK/CSS/Javascript/jQuery/React/Node/MySql</div>
+					<button><a href="https://yuracho.github.io/publishing_mobile/" target="_blank">포트폴리오 보러가기</a></button>
 				</div>
+				
 			</div>
 		</section>
 		</div>
@@ -196,7 +218,7 @@
 
 	<footer class="footer-area">
 		<div class="sns">
-			<a href="https://github.com/yuracho" target="_blank"><img src="img/github.png" alt=""></a>
+			<a href="https://github.com/yuracho" target="_blank"><img src="image/github.png" alt=""></a>
 			
 		</div>
 		<div class="info">
@@ -204,13 +226,14 @@
 		</div>
 	</footer>
 
-	<div id="portfolioModal" class="modal"b>
+	<div id="portfolioModal" class="modal">
 		<span class="close" id="modalClose">&times;</span>
 		<div class="container">
 			<img id="modalImage">
 			<div id="modalMain" class="modal-main"></div>
 			<div id="modalSub" class="modal-sub"></div>
 			<div id="modalText" class="modal-text"></div>
+			<div id="modalSkills" class="modal-skills"></div>
 		</div>
 	</div>
 
